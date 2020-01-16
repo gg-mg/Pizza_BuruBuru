@@ -2,7 +2,7 @@
     width: 100%;
     overflow: hidden;
     float: center;
-    padding: 10%;
+    padding: 1%;
   }
   /*Styling the header*/
   .header {
@@ -43,15 +43,13 @@
       color: white;
   }
     /* Remove bullets and browser defaul settings  */
-  ul {
+  nav a {
       list-style-type: none;
       margin: 0;
       padding: 3%;
-      width: 60px;
+      display: block;
   }
-  ul a {
-    display: block;
-  }
+  
     body {
       background-image: url('https://bit.ly/2RMR83o');
       background-repeat: no-repeat;
@@ -62,13 +60,13 @@
     max-width: 500px;
     margin: auto;
   }
-  .topnav-centered a {
+  /* .topnav-centered a {
       position: relative;
       top: 0;
       left: 0;
       transform: none;
-    }
-  }
+    } */
+ 
     /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
   @media screen and (max-width: 500px) {
       .navbar a {
@@ -77,22 +75,24 @@
       }
     }
    .titledBackground {
-      background-image: url('https://bit.ly/2qPU7ge');
+      background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlLAdPc2qZ3irgcMscrJ8Lo44nm4Cab66jKADYcnXYD3yqw3Ey&sted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmLjH-0wxkQdf_62dyOXKjSwoPTw08Ha4fM_aWub3GQCM-WSJNCg&sgstatic.com/images?q=tbn:ANd9GcTbv2IzYK7uWpii8Ok51p481Yma0a50w4tMxZfqa8ili7qW7rIu&sq=tbn:ANd9GcQV6ncm2fKwg_iXubssxIQJurPePk9-rsVqf4KzyGzvvzEnjVtI&stps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAoFBlfJq9s6e0vIu6Hm4lm8CTVUyInp1OktPN7qXHk4uPGTJG1Q&s');
       background-size: 100%;
       background-repeat: no-repeat;
       width: 100%;
       height: 100%;
       border: 20% solid;
-      color: white;
+      color: black;
     } 
     .titledBackground2 {
-      background-image: url('https://bit.ly/2M1riVq');
+      /* background-image: url('https://bit.ly/2M1riVq'); */
       background-size: 100%;
-      background-repeat: no-repeat;
+      background-repeat: repeat;
       width: 100%;
-      height: 100%;
+      height: 600px;
       border: 20% solid;
-      color: white;
+      color: midnightblue;
+      text-align: center;
+     
     }  
   .column {
     float: left;
